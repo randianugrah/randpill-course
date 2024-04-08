@@ -13,11 +13,14 @@ function App() {
       <NavbarComponent />
 
       <Routes>
-        <Route path="/" Component={HomePage} />
-        <Route path="/kelas" Component={KelasPage} />
-        <Route path="/testimonial" Component={TestimonialPage} />
-        <Route path="/syarat-ketentuan" Component={SyaratKetentuanPage} />
-        <Route path="/faq" Component={FaqPage} />
+        <Route path="/website-course" Component={HomePage} />
+        <Route path="/website-course/kelas" Component={KelasPage} />
+        <Route path="/website-course/testimonial" Component={TestimonialPage} />
+        <Route
+          path="/website-course/syarat-ketentuan"
+          Component={SyaratKetentuanPage}
+        />
+        <Route path="/website-course/faq" Component={FaqPage} />
       </Routes>
 
       <FooterComponent />

@@ -15,27 +15,27 @@ import People3 from "../assets/img/testimonial/people-3.jpg";
 export const navLinks = [
   {
     id: 1,
-    path: "",
+    path: "/website-course",
     text: "Home",
   },
   {
     id: 2,
-    path: "kelas",
+    path: "/website-course/kelas",
     text: "Kelas",
   },
   {
     id: 3,
-    path: "testimonial",
+    path: "/website-course/testimonial",
     text: "Testimonial",
   },
   {
     id: 4,
-    path: "faq",
+    path: "/website-course/faq",
     text: "FAQ",
   },
   {
     id: 5,
-    path: "syarat-ketentuan",
+    path: "/website-course/syarat-ketentuan",
     text: "Syarat & Ketentuan",
   },
 ];
