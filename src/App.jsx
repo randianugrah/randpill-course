@@ -13,7 +13,7 @@ function App() {
       <NavbarComponent />
 
       <Routes>
-        <Route path="/website-course" Component={HomePage} />
+        <Route path="/website-course/" Component={HomePage} />
         <Route path="/website-course/kelas" Component={KelasPage} />
         <Route path="/website-course/testimonial" Component={TestimonialPage} />
         <Route
