@@ -95,7 +95,7 @@ const HomePage = () => {
             <Col className="text-center">
               <button
                 className="btn btn-success rounded-5"
-                onClick={() => navigate("/kelas")}
+                onClick={() => navigate("/randpill-course/kelas")}
                 data-aos="fade-up"
                 data-aos-duration="1200"
               >
