@@ -13,14 +13,17 @@ function App() {
       <NavbarComponent />
 
       <Routes>
-        <Route path="/website-course/" Component={HomePage} />
-        <Route path="/website-course/kelas" Component={KelasPage} />
-        <Route path="/website-course/testimonial" Component={TestimonialPage} />
+        <Route path="/randpill-course/" Component={HomePage} />
+        <Route path="/randpill-course/kelas" Component={KelasPage} />
         <Route
-          path="/website-course/syarat-ketentuan"
+          path="/randpill-course/testimonial"
+          Component={TestimonialPage}
+        />
+        <Route
+          path="/randpill-course/syarat-ketentuan"
           Component={SyaratKetentuanPage}
         />
-        <Route path="/website-course/faq" Component={FaqPage} />
+        <Route path="/randpill-course/faq" Component={FaqPage} />
       </Routes>
 
       <FooterComponent />
