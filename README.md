@@ -9,4 +9,4 @@ Currently, two official plugins are available:
 
 ## Documentation
 
-[Documentation](https://randianugrah.github.io/randpill-course/)
+[https://randianugrah.github.io/randpill-course/](https://randianugrah.github.io/randpill-course/)
